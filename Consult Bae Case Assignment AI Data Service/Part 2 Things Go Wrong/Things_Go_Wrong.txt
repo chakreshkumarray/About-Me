@@ -1,0 +1,74 @@
+A. Number Crunch (The Math)
+
+Here is my breakdown of the numbers. I assumed 15 days have passed and 15 days are left, with a final goal of 10,000 passes per language.
+
+German: 4,320 passed. Need 5,680. Current pace is 288/day. Target pace needed is 379/day. Status: Behind, but a slight push gets the 10k done.
+Portuguese: 2,720 passed. Need 7,280. Current pace is 181/day. Target pace needed is 485/day. Status: Serious trouble.
+Bahasa Indo: 2,340 passed. Need 7,660. Current pace is 156/day. Target pace needed is 511/day. Status: Behind, and the coordinator leaving makes it a huge risk.
+Swahili: 1,520 passed. Need 8,480. Current pace is 101/day. Target pace needed is 565/day. Status: Failing.
+Thai: 560 passed. Need 9,440. Current pace is 37/day. Target pace needed is 629/day. Status: Complete disaster.
+
+------------------------------------------------------------------------------------------------
+
+B. My Recovery Plan
+
+Here is exactly what I am doing Monday through Friday to fix these issues.
+
+1. Fixing the Quality Review Crisis
+I am pulling the remaining reviewer off Swahili and Thai immediately so they only do Portuguese and Bahasa Indonesia. I am taking over Swahili and Thai QC myself starting today. Tomorrow, I am promoting my two best German speakers to do German QC, which frees up my time.
+
+2. Addressing the Thai Quality Disaster
+I am pausing all current Thai freelancers today. I am finding 10 new ones on Upwork and in local university Facebook groups by Wednesday. 
+My message to the noisy Thai contributors: "Hi, I am hearing too much background noise in the recent files. I need to pause the account for now. Please send a new 30-second test from a completely quiet room indoors so I can reactivate the account." 
+
+3. Solving the Swahili Sourcing & Gender Skew
+Sourcing one-by-one is dead. Today, I am messaging 5 East African agencies on ProZ to subcontract 2,000 female recordings. On Wednesday, I am offering a $25 bounty to the 7 active male freelancers for every female speaker they refer who hits 50 approved files.
+
+4. Handling the Indonesian Coordinator's Leave
+Before they leave on Wednesday, I am blocking out 2 hours with them today to get all contacts and sheets into a handover doc. Tomorrow, we send a message making me the main contact. I am running this for the next two weeks.
+
+------------------------------------------------------------------------------------------------
+
+C. Two Emails I Must Write
+
+Email 1: To the Client
+Subject: Midpoint status update and sample files
+
+Hi team,
+
+I am sending over the midpoint update as Week 4 begins. German is moving well, and I am actively scaling up Portuguese and Bahasa Indonesia. I attached the 50 sample files per language for review. 
+
+I want to be transparent about Thai and Swahili. I am seeing high rejection rates in Thai due to noise, and sourcing female speakers for Swahili is slower than expected. I refuse to lower the audio quality standards just to hit a number, so I am bringing in agency partners and referral bonuses to fix this right now.
+
+Once the samples are reviewed, I would love to schedule a quick 10-minute sync on Thursday to discuss prioritizing quality over quantity for Thai and Swahili. 
+
+Best,
+[My Name] 
+
+
+Email 2: To My Manager
+Subject: Week 4 red flags and my fix
+
+Hi [Manager Name],
+
+I am giving it straight: the project is in a bad spot. At this pace, we only hit about 23,000 out of 50,000 by week 6. 
+
+The main issues: Thai is completely failing due to noise. Swahili has no female speakers. The best QC quit and the other one is overwhelmed. The Indo coordinator leaves Wednesday.
+
+My fixes: I am personally taking over Indo coordination and Thai/Swahili QC. I am promoting top German freelancers to do German QC. I am pausing Thai freelancers today and hiring agencies for Swahili.
+
+I need approval for a $300 budget to pay referral bonuses for female Swahili speakers. I am also prepping the client for a scope reduction on Thai and Swahili to save the data quality. 
+
+Thanks,
+[My Name]
+
+------------------------------------------------------------------------------------------------
+
+D. The Hard Choice
+
+I am rejecting Option A and Option B. I propose a third option: I will deliver German, Portuguese, and Bahasa Indonesia at the full 10,000 target in 7 weeks (1-week extension). I will reduce Thai and Swahili to 5,000 each.
+
+My Reasoning:
+Why Option A fails: Adding one week does not fix a 10x pacing gap for Thai. It is mathematically impossible without accepting bad audio.
+Why Option B fails: Keeping the 6-week deadline but cutting Thai to 7,000 still fails because Thai will realistically only hit 1,100 by then.
+Why my option works: Thai and Swahili are too broken to fix in just one extra week. Capping them at 5,000 gives me time to fix the Swahili gender skew and find quiet Thai speakers. The extra week gives me exactly enough time to finish the other three languages perfectly. It protects the data integrity and resets expectations to reality.
