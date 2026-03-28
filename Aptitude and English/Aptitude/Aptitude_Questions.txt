@@ -1,0 +1,46 @@
+Q1. If x:y=3:4 find the value of 3x+4y:5x+6y
+Ans. 
+  Given: 𝑥:𝑦=3:4
+
+Let: 𝑥=3𝑘 , y=4k, 
+
+Now substitute:
+
+3x + 4y
+3(3k)+4(4k)
+9k+16k=25k
+
+5x + 6y
+5(3k)+6(4k)
+15k+24k=39k
+
+So the ratio:
+39
+(3x+4y):(5x+6y)=25k:39k=25:39
+
+✅ Final Answer: 25 : 39
+
+Q2. The difference between ci and si on a sum for 3 years at 10 percent percent annum in INR 93 . The sum is?
+Ans. Given:
+Difference between CI and SI for 3 years = 93
+Rate = 10% per annum
+
+Formula:
+Difference = P × (R/100)^2 × (3 + R/100)
+
+Substitute values:
+93 = P × (10/100)^2 × (3 + 10/100)
+
+93 = P × (0.1)^2 × (3 + 0.1)
+
+93 = P × 0.01 × 3.1
+
+93 = P × 0.031
+
+P = 93 / 0.031
+
+P = 3000
+
+Final Answer: 3000
+
+Q3. 
