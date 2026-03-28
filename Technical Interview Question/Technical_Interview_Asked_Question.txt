@@ -1,0 +1,265 @@
+Q1. String Pool?
+Ans. String Pool Store Same String in String Stack at Same memmory reference known as String Pool Property.
+
+Q2. Interface?
+Ans. Interface is a blue print of class. Interface is a way to achieve Multiple Inheritance.
+
+Q3. What is inheritance?
+Ans. Inheritance is a Oops concept to inherit the property of another class.
+
+Q4. Comparable and Comparator?
+Ans Comparable is Natural method that used to compare multiple value by using compareTo().
+    Comparator is Manual method created by developer where we can use and compare values  by compare().
+
+Q5. Aggregation and Composition?
+Ans. Aggregtion:    Aggregation is weak bonding --> low bonding
+                   Ex- Car does not depend upon MusicPlayer, Car can run without Music Player
+
+     Composition:   Composition is Strong coupling --> hard coupling
+                   Ex- Car depends upon Engine --> Without engine car can not run 
+
+Q6.  Intermediate Stream and Terminal Stream?
+Ans. Intermediate Stream: Intermediate operations are lazy (they don’t execute anything)
+
+        Intermediate operations (like filter(), map())
+        ➜ Only build the pipeline
+        ➜ They return another stream
+        ➜ No processing happens yet
+
+        Intermediate operations define WHAT to do
+         */
+
+        List<Integer> list = Arrays.asList(2, 5, 8, 12);
+
+        list.stream()
+                .filter(n -> {
+                    System.out.println("Filtering: " + n);
+                    return n > 5;
+                });  // ❌ No terminal operation
+
+        // (No output)
+
+     Terminal Stream: Terminal operations trigger the actual execution of the stream pipeline.
+
+        Terminal operation (like forEach(), collect())
+        ➜ Starts the execution
+        ➜ Produces final result
+        ➜ After this, stream is consumed
+
+        Terminal operations actually DO it.
+         */
+
+        List<Integer> list = Arrays.asList(2, 5, 8, 12);
+        list.stream()
+                .filter(n -> {
+                    System.out.println("Filtering: " + n);
+                    return n > 5;
+                })
+                .forEach(System.out::println);
+
+        /* (Output)
+
+        Filtering: 2
+        Filtering: 5
+        Filtering: 8
+        8
+        Filtering: 12
+        12
+
+Q7. Stream API?
+Ans. 🔹 What is Stream API?
+
+A Stream is a sequence of elements that supports operations like:
+
+filtering
+mapping
+sorting
+reducing
+
+👉 It does not store data, it processes data from a source (like List, Set, etc.)
+
+With Stream
+list.stream()
+    .filter(i -> i % 2 == 0)
+    .forEach(System.out::println);
+
+Q8. Drop, Delete and Truncate in Database?
+Ans. DELETE
+     👉 Removes specific rows
+     DELETE FROM employees WHERE id = 101;
+     ✅ Key Points:
+    Removes selected rows
+    Uses WHERE condition
+    Can rollback (if transaction is used)
+    Triggers are fired
+    Slower (row-by-row deletion)
+
+    TRUNCATE
+    👉 Removes all rows (fast)
+    TRUNCATE TABLE employees;
+    ✅ Key Points:
+    Removes all rows
+    ❌ No WHERE clause
+    Cannot rollback (in most DBs)
+    Does NOT fire triggers
+    Faster than DELETE (deallocates memory)
+    Resets AUTO_INCREMENT
+
+    DROP
+    👉 Deletes entire table
+    DROP TABLE employees;
+    ✅ Key Points:
+    Removes table + data + structure
+    ❌ Cannot rollback
+    Frees all memory
+    Table no longer exists
+
+q9. Authentication and Authorization?
+Ans. 🔐 1. Authentication (AuthN)
+     👉 “Who are you?”
+
+     Authentication is the process of verifying identity.
+
+     ✅ Examples:
+     Logging in with username & password
+     OTP verification
+     Biometric (fingerprint, face)
+
+    🔹 Real-life example:
+     Entering ATM PIN → proves you are the account holder
+
+    🔑 2. Authorization (AuthZ)
+    👉 “What can you access?”
+
+    Authorization happens after authentication and determines permissions.
+
+    ✅ Examples:
+    Admin can delete users
+    User can only view their profile
+    Access control in APIs
+   🔹 Real-life example:
+    After ATM login → you can withdraw money but cannot access someone else’s account
+
+Q10. HTML vs HTML5?  
+Ans. HTML- Older versions of HTML (like HTML 4) were mainly used to structure content.
+     HTML5- HTML5 (introduced around 2014 by World Wide Web Consortium) adds:
+            Semantic tags
+            Multimedia support
+            APIs for modern web apps
+
+Q11. Stack?
+Ans. LIFO (Last In, First Out)
+     Push 10 → Push 20 → Push 30
+     Stack: [10, 20, 30]
+     Pop → removes 30
+     Stack: [10, 20] 
+
+Q12. Find First, Second Hoghest Salary in Database?
+Ans. First salary- select * from employees order by salary desc limit 1;
+     Second salary- selecy * from employees order by salary desc limit 1 offset 1;
+
+Q13. Var, Let, Const
+Ans. Var-Global Scope
+     Let-Local scope
+     Const-No changeable
+
+Q14. What is .Net why is use what work?
+Ans. 💻 What is .NET?
+
+     .NET is a developer platform/framework created by Microsoft for building a wide range of applications:
+
+     Web apps
+     Desktop apps
+     Mobile apps
+     APIs
+     Cloud services
+
+    🔹 Key Components of .NET
+
+     1. CLR (Common Language Runtime)
+     👉 The execution engine
+      Manages memory
+      Handles exceptions
+      Provides security
+
+    2. FCL / BCL (Framework Class Library)
+    👉 Pre-written libraries
+     File handling
+     Database access
+     Collections
+     Networking
+
+   3. Languages Supported
+    C# (most popular)
+    VB.NET
+    F#
+
+   🔹 Types of .NET
+
+    1. .NET Framework (Old)
+     Windows-only
+     Used for desktop apps (WinForms, WPF)
+
+    2. .NET Core (Modern)
+    Cross-platform (Windows, Linux, macOS)
+    High performance
+
+    3. .NET (Latest unified version)
+      Combines everything into one platform
+      Used for modern development
+ 
+    🔹 Example (C# Program)
+      using System;
+      class Program {
+       static void Main() {
+           Console.WriteLine("Hello, .NET!");
+        }
+      } 
+
+    🔹 ASP.NET
+    👉 Web framework inside .NET
+     Build APIs and websites
+     Used in backend development
+
+   🔹 Advantages
+     Cross-platform support
+     High performance
+     Large ecosystem
+     Strong security
+
+    🔹 Real-world Use
+     Companies like Stack Overflow and Microsoft use .NET technologies.
+
+Q15. What is Function in Database?
+Ans. Function in Database
+      Returns a value
+      It is mainly used for reusable logic inside SQL queries.
+      
+     SUM()
+     AVG()
+     COUNT()
+     NOW()
+
+Q16. What is trigeer in Database?
+Ans. A trigger is a special type of stored program that automatically executes (fires) when a specific event occurs on a table.
+     👉 You don’t call a trigger manually — the database runs it automatically.
+     
+    🔹 When does a Trigger Fire?
+     Triggers are executed on events like:
+       INSERT
+       UPDATE
+       DELETE
+
+      🔹 Types of Triggers
+      1. BEFORE Trigger
+      👉 Executes before the event
+
+      2. AFTER Trigger
+      👉 Executes after the event
+
+      CREATE TRIGGER before_insert_employee
+      BEFORE INSERT ON employees
+      FOR EACH ROW
+      SET NEW.salary = NEW.salary + 1000;
+
+Q17. 
