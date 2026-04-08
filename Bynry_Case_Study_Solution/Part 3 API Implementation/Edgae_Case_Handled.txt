@@ -1,0 +1,8 @@
+3. Edge Cases Handled
+Division by Zero / Infinite Stockout Days: Calculating days_until_stockout relies on historical sales velocity. If a product just sold 1 unit in 30 days, the velocity is tiny, and the days until stockout could calculate into the thousands. The code caps low velocities and explicitly handles 0 volume to prevent ArithmeticException.
+
+Missing Supplier Data: B2B systems often have dirty data. A product might be imported without a supplier attached yet. The code checks for null suppliers and omits the object safely rather than throwing a NullPointerException.
+
+Out of Memory (OOM) via Massive Datasets: A company could have 100,000 products. Filtering "low stock" in Java memory (fetching all records and using .filter()) will crash the server. The architecture delegates the heavy lifting to the database layer (inventoryRepository.findLowStockByCompany), assuming an optimized query is written there. Pagination parameters are also included in the Controller.
+
+No Results Found: If the company has no low stock, or the company ID doesn't exist, the API cleanly returns an empty array [] with total_alerts: 0 and a 200 OK status, rather than a 404 or 500.

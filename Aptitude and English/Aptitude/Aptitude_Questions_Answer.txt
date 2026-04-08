@@ -1,27 +1,29 @@
-Q1. If x:y=3:4 find the value of 3x+4y:5x+6y
-Ans. 
-  Given: 𝑥:𝑦=3:4
+Q1. If x : y = 3 : 4 find the value of 3x + 4y : 5x + 6y
 
-Let: 𝑥=3𝑘 , y=4k, 
+  Given: 𝑥 : 𝑦 = 3 : 4
+
+Let: 𝑥 = 3𝑘 ,  y = 4k, 
 
 Now substitute:
 
 3x + 4y
-3(3k)+4(4k)
-9k+16k=25k
+3(3k) + 4(4k)
+9k + 16k = 25k
 
-5x + 6y
-5(3k)+6(4k)
-15k+24k=39k
+5x  +  6y
+5(3k) + 6(4k)
+15k + 24k = 39k
 
 So the ratio:
-39
-(3x+4y):(5x+6y)=25k:39k=25:39
+
+(3x + 4y) : (5x + 6y) => 25k : 39k = 25 : 39
 
 ✅ Final Answer: 25 : 39
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Q2. The difference between ci and si on a sum for 3 years at 10 percent percent annum in INR 93 . The sum is?
-Ans. Given:
+
 Difference between CI and SI for 3 years = 93
 Rate = 10% per annum
 
@@ -43,109 +45,81 @@ P = 3000
 
 Final Answer: 3000
 
-Question:
-A cistern has two pipes. Pipe A can fill it in 15 min and Pipe B can empty it in 20 min. If both are opened alternately for 1 min each, starting with A, how long will it take to fill the cistern?
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Answer:** 113 minutes.
+Question 3.
+A cistern has two pipes. Pipe A can fill it in 15 min and Pipe B can empty it in 20 min. 
+If both are opened alternately for 1 min each, starting with A, how long will it take to fill the cistern?
 
-**Step-by-Step:**
-1.  **Efficiencies:** Assume total capacity is the LCM of 15 and 20 = **60 units**.
-    *   Pipe A efficiency = $+60 / 15 = 4$ units/min.
-    *   Pipe B efficiency = $-60 / 20 = 3$ units/min.
-2.  **Cycle:** In a 2-minute cycle (A then B), the net fill is $4 - 3 = \mathbf{1}$ **unit**.
-3.  **Critical Point:** To avoid over-calculating, subtract Pipe A's final jump from the total: $60 - 4 = \mathbf{56}$ **units**.
-4.  **Time for 56 units:** Since 1 unit takes 2 minutes, 56 units take $56 \times 2 = \mathbf{112}$ **minutes**.
-5.  **Final Step:** At the 113th minute, it is Pipe A's turn. It adds 4 units: $56 + 4 = 60$ units. The cistern is now full.
 
----
+Assume total capacity is the LCM of 15 and 20 = 60 units
 
-### **Question 10: Permutations & Divisibility**
-**Question:** How many 4-digit numbers can be formed using digits {0, 1, 2, 3, 4, 5} such that the number is divisible by 3 and repetition is not allowed?
+    Pipe A efficiency = 60 / 15 = 4 units/min.
+    Pipe B efficiency = 60 / 20 = 3 units/min.
 
-**Answer:** 96.
+    Cycle: In a 2-minute cycle (A then B), the net fill is 4 - 3 = 1
 
-**Step-by-Step:**
-1.  **Sum Rule:** A number is divisible by 3 if the sum of its digits is a multiple of 3.
-2.  **Valid Sets of 4 Digits:**
-    *   {1, 2, 4, 5} (Sum = 12)
-    *   {0, 3, 4, 5} (Sum = 12)
-    *   {0, 2, 3, 4} (Sum = 9)
-    *   {0, 1, 3, 5} (Sum = 9)
-    *   {0, 1, 2, 3} (Sum = 6)
-3.  **Permutations:**
-    *   **Set without 0:** {1, 2, 4, 5} can form $4! = \mathbf{24}$ numbers.
-    *   **Sets with 0 (4 sets):** For each set, the first digit cannot be 0 (3 options), and the remaining digits can be arranged in $3!$ ways. Total per set = $3 \times 6 = 18$.
-    *   $18 \times 4 = \mathbf{72}$ numbers.
-4.  **Total:** $24 + 72 = \mathbf{96}$.
+    Critical Point: To avoid over-calculating, 
+    subtract Pipe A's final jump from the total: 60 - 4 = 56.
 
----
+    Time for 56 units: Since 1 unit takes 2 minutes, 56 units take 56 * 2 = 112
 
-### **Question 11: Compound Interest Rate**
-**Question:** A sum of money at compound interest amounts to Rs. 5290 in 2 years and to Rs. 6083.50 in 3 years. Find the rate of interest.
+    At the 113th minute, 
 
-**Answer:** 15%.
+    it is Pipe A's turn. It adds 4 units: 56 + 4 = 60 units. The cistern is now full.
 
-**Step-by-Step:**
-1.  **Interest in Year 3:** Subtract the Amount of Year 2 from Year 3: $6083.50 - 5290 = \mathbf{793.50}$.
-2.  **Logic:** In compound interest, the amount at the end of Year 2 acts as the principal for Year 3.
-3.  **Formula:** $\text{Rate} = \left( \frac{\text{Interest}}{\text{Principal for that year}} \right) \times 100$.
-4.  **Calculation:** $\left( \frac{793.50}{5290} \right) \times 100 = \mathbf{15\%}$.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
----
+Question 4.
+How many 4-digit numbers can be formed using digits {0, 1, 2, 3, 4, 5} such that the number is divisible by 3 and repetition is not allowed?
 
-### **Question 12: Leap Year Probability**
-**Question:** Find the probability that a leap year has 53 Sundays and 53 Mondays.
+Sum Rule: A number is divisible by 3 if the sum of its digits is a multiple of 3.
 
-**Answer:** 1/7.
+Valid Sets of 4 Digits:
+    {1, 2, 4, 5} (Sum = 12)
+    {0, 3, 4, 5} (Sum = 12)
+    {0, 2, 3, 4} (Sum = 9)
+    {0, 1, 3, 5} (Sum = 9)
+    {0, 1, 2, 3} (Sum = 6)
 
-**Step-by-Step:**
-1.  **Days in Leap Year:** 366 days = 52 weeks + **2 extra days**.
-2.  **Possible Extra Day Pairs:** (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun). There are **7** total possibilities.
-3.  **Favorable Outcome:** Only the pair **(Sun, Mon)** results in both 53 Sundays and 53 Mondays.
-4.  **Probability:** $1 / 7$.
+    Set without 0: {1, 2, 4, 5} can form 4 * 3 * 2 * 1 = 24
 
----
+    Sets with 0 (4 sets): For each set, the first digit cannot be 0 (3 options), and the remaining digits can be arranged in 3 * 2 * 1 = 6 ways. 
 
-### **Question 13: Boats and Streams**
-**Question:** A man can row 6 km/h in still water. If the speed of the current is 2 km/h, it takes him 3 hours to row to a place and come back. How far is the place?
+    Total per set = 3 * 6 = 18
 
-**Answer:** 8 km.
+    18 * 4 = 72
 
-**Step-by-Step:**
-1.  **Speeds:**
-    *   Downstream speed = $6 + 2 = \mathbf{8 \text{ km/h}}$.
-    *   Upstream speed = $6 - 2 = \mathbf{4 \text{ km/h}}$.
-2.  **Time Equation:** Let distance be $d$. Total time is 3 hours.
-    *   $\frac{d}{8} + \frac{d}{4} = 3$
-3.  **Solve for d:**
-    *   $\frac{d + 2d}{8} = 3 \implies \frac{3d}{8} = 3$
-    *   $3d = 24 \implies d = \mathbf{8 \text{ km}}$.
+    Total: 24 + 72 = 96
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### **Question 14: Algebraic Identity**
-**Question:** If $x + \frac{1}{x} = 3$, find $x^5 + \frac{1}{x^5}$.
+Question 5.
+A sum of money at compound interest amounts to Rs. 5290 in 2 years and to Rs. 6083.50 in 3 years. Find the rate of interest.
 
-**Answer:** 123.
+Interest in Year 3 -> Subtract the Amount of Year 2 from Year 3 -> 6083.50 - 5290 = 793.50
 
-**Step-by-Step:**
-1.  **Find $x^2 + \frac{1}{x^2}$:** $(x + \frac{1}{x})^2 - 2 = 3^2 - 2 = \mathbf{7}$.
-2.  **Find $x^3 + \frac{1}{x^3}$:** $(x + \frac{1}{x})^3 - 3(x + \frac{1}{x}) = 3^3 - 3(3) = 27 - 9 = \mathbf{18}$.
-3.  **Combine:** $(x^2 + \frac{1}{x^2})(x^3 + \frac{1}{x^3}) = 7 \times 18 = \mathbf{126}$.
-4.  **Isolate $x^5$:** Expanding the product gives $(x^5 + \frac{1}{x^5}) + (x + \frac{1}{x})$.
-5.  **Final Result:** $126 - 3 = \mathbf{123}$.
+In compound interest, the amount at the end of Year 2 acts as the principal for Year 3.
 
----
+Formula: Rate = Interest / Principle *  100
 
-### **Question 15: Clock Angles**
-**Question:** At what time between 4 and 5 o'clock will the hands of a watch be at right angle?
+Rate of Interest = 793.50 / 5290 * 100 = 15 %
 
-**Answer:** Both $5 \frac{5}{11}$ min past 4 and $38 \frac{2}{11}$ min past 4.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Step-by-Step:**
-1.  **Initial Angle:** At 4:00, the hour hand is at $4 \times 30^\circ = \mathbf{120^\circ}$.
-2.  **Right Angle Condition:** The angle between hands must be $90^\circ$.
-3.  **Case 1 (Before meeting):** Minute hand needs to cover $120^\circ - 90^\circ = 30^\circ$.
-    *   $\text{Time} = \frac{30}{5.5} = \frac{60}{11} = \mathbf{5 \frac{5}{11} \text{ min}}$.
-4.  **Case 2 (After meeting):** Minute hand needs to cover $120^\circ + 90^\circ = 210^\circ$.
-    *   $\text{Time} = \frac{210}{5.5} = \frac{420}{11} = \mathbf{38 \frac{2}{11} \text{ min}}$.
+Question 6.
+Find the probability that a leap year has 53 Sundays and 53 Mondays.
+
+Days in Leap Year: 366 days = 52 weeks + 2 extra days
+
+Possible Extra Day Pairs: (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun)
+
+There are 7 total possibilities
+
+Favorable Outcome: Only the pair (Sun, Mon) results in both 53 Sundays and 53 Mondays
+
+Probability: 1 / 7
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 7.
