@@ -1,0 +1,171 @@
+/* Main App Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.app-header p {
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+.app-main {
+  display: flex;
+  flex: 1;
+  gap: 0;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: stretch;
+}
+
+.left-panel {
+  flex: 1;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.right-panel {
+  flex: 1;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ddd;
+  margin: 0 20px;
+  flex-shrink: 0;
+}
+
+.app-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .app-main {
+    max-width: 100%;
+    gap: 15px;
+  }
+
+  .left-panel {
+    max-width: 100%;
+  }
+
+  .right-panel {
+    max-width: 100%;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    min-height: auto;
+  }
+
+  .app-header {
+    padding: 20px 15px;
+  }
+
+  .app-header h1 {
+    font-size: 1.5em;
+  }
+
+  .app-header p {
+    font-size: 0.85em;
+  }
+
+  .app-main {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    max-width: 100%;
+  }
+
+  .left-panel {
+    min-width: auto;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .right-panel {
+    min-width: auto;
+    max-width: 100%;
+    order: 1;
+    min-height: 400px;
+  }
+
+  .app-footer {
+    padding: 15px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header h1 {
+    font-size: 1.2em;
+  }
+
+  .app-header p {
+    font-size: 0.75em;
+  }
+
+  .app-main {
+    padding: 10px;
+    gap: 10px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
